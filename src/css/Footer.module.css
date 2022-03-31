@@ -1,7 +1,9 @@
 .section {
+    color: white;
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-image: linear-gradient(to bottom, #222023, #1e2c47);
+    height: 300px;
 }
 
 /* .span {

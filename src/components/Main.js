@@ -33,7 +33,7 @@ export default function Main() {
         </section>
         <section className={MainStyle.section}>
           <div className={MainStyle.section4_grid4}>
-            {[1,2,3,4].map(()=><Review/>)}
+            {[1,2,3,4].map((r, id)=><Review key={id} review={id}/>)}
           </div>
         </section>
     </div>

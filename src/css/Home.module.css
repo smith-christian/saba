@@ -3,3 +3,67 @@
     color: rgb(54, 37, 37);
     font-weight: 500;
 }
+
+
+.colorbox {
+    background: linear-gradient(135deg,#edaef9, #81b1fa);
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+
+.h1 {
+    font-size: 4rem;
+    margin: 7% 5% 3% 5%;
+
+    line-height: 0;
+}
+
+.h2 {
+    font-size: 3rem;
+    margin: 4% 5% 7% 5%;
+    line-height: 0;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 1440px){
+
+}
+
+@media (max-width: 1024px){
+
+    .h1 {
+        font-size: 2.6rem;
+        margin: 8% 5% 3% 5%;
+    }
+    
+    .h2 {
+        font-size: 1.8rem;
+        margin: 4% 5% 7% 5%;
+    }
+}
+
+@media (max-width: 768px){
+
+    .h1 {
+        font-size: 2rem;
+        margin: 8% 5% 3% 5%;
+    }
+    
+    .h2 {
+        font-size: 1.5rem;
+        margin: 4% 5% 7% 5%;
+    }
+}
+
+@media (max-width: 425px){
+
+    .h1 {
+        font-size: 2rem;
+        margin: 30% 0% 0% 10%;
+    }
+    
+    .h2 {
+        font-size: 1.5rem;
+        margin: 8% 0% 8% 10%;
+    }
+}
